@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 //import sanity image url reader
-import { urlFor } from '../../utils/client'
+import { urlFor } from '../../utils/client.js'
 
 const IMG = ({ post, postlength }) => {
   if (postlength === 1) {

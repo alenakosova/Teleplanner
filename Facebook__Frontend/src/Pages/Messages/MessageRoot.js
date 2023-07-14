@@ -16,7 +16,7 @@ import { useGlobalContext } from '../../Hooks/context/UseContext'
 import SoftMassagePanelview from './components/SoftMassagePanelview/SoftMassagePanelview'
 import axios from 'axios'
 import { getAllChat } from '../../Functions/actions/external'
-import { urlFor } from '../../utils/client'
+import { urlFor } from '../../utils/client.js'
 
 const MessageRoot = ({ children, title, actionButton }) => {
   const { setChatState, setMessageState } = useGlobalContext()

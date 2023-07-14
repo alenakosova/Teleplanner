@@ -13,7 +13,7 @@ import { FriendStack } from '../../Components'
 import useAuthStore from '../../Store/AuthStore'
 
 //import sanity url from client
-import { urlFor } from '../../utils/client'
+import { urlFor } from '../../utils/client.js'
 
 //import react custom icons
 import { Icon } from '../../utils/Icon'

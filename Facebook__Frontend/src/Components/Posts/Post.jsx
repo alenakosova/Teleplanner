@@ -13,7 +13,7 @@ import { Comments, PostOptions, Share, COMBTN, IMG } from '../index';
 import Redirect from '../../examples/SoftRedirect';
 
 //import sanity url reader
-import { urlFor } from '../../utils/client';
+import { urlFor } from '../../utils/client.js';
 import { LikeBTN, LikeVW } from './Like';
 
 const Post = ({

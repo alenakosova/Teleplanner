@@ -1,4 +1,4 @@
-import { client } from '../../utils/client'
+import { client } from '../../utils/client.js'
 import { GET_SINGLE_POST } from '../type'
 
 export function share() {
